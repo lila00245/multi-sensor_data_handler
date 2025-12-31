@@ -4,7 +4,9 @@
 
 # creation date: 12/30/2025
 
-# project goal: This project aims to simulate 2-3 different sensors (such as temperature, pressure, and a camera frame counter). Each sensor will update at a different rate, produce raw integer data, and run in its own thread. It will be able to share data safely via mutexes. The sensor values will be packed into a 32-bit integer with certain bit ranges assigned to each sensor. Failure cases will be added in case of out of range sensors, missed update deadlines, and buffer overflows. The system will print timestamps with the packed data in hexadecimal and print error flags. 
+
+# project goal: 
+This project aims to simulate 2-3 different sensors (such as temperature, pressure, and a camera frame counter). Each sensor will update at a different rate, produce raw integer data, and run in its own thread. It will be able to share data safely via mutexes. The sensor values will be packed into a 32-bit integer with certain bit ranges assigned to each sensor. Failure cases will be added in case of out of range sensors, missed update deadlines, and buffer overflows. The system will print timestamps with the packed data in hexadecimal and print error flags. 
 
 
 # system components: 
